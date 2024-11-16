@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 60px;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo {
+            padding: 15px;
+            background-color: #3A4B53;
+            color: white;
+            width: 11%;
+        }
+
+        #logo span {
+            text-align: end;
+            margin: 3px 9px 0 13px;
+            font-size: 20px;
+        }
+
+        #header-nav {
+            background-color: #4D636F;
+            color: white;
+            width: 79%;
+            padding: 5px;
+        }
+
+        #nav-icons {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+
+        #icon {
+            margin: 16px;
+            margin-right: 5%;
+            margin-top: 6px;
+        }
+
+        .notification-count {
+            position: absolute;
+            font-size: 10px;
+            background-color: rgb(40, 164, 40);
+            color: white;
+            border-radius: 50%;
+            padding: 2px 5px;
+        }
+
+        #header-profile {
+            background-color: #4D636F;
+            width: 10%;
+        }
+
+        #header-profile img {
+            border-radius: 50%;
+            width: 30px;
+            margin: 15px 0 0 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+            <div class="logo" id="logo">
+                <i class="fa-solid fa-house"></i><span>Logo</span>
+            </div>
+            <div id="header-nav">
+                <ul id="nav-icons">
+                    <li id="icon"><i class="fa-sharp-duotone fa-solid fa-earth-americas fa-2x"></i></li>
+                    <li id="icon"><i class="fa-sharp-duotone fa-solid fa-user fa-2x"></i></li>
+                    <li id="icon"><i class="fa-sharp-duotone fa-solid fa-envelope fa-2x"></i></li>
+                    <li id="icon"><i class="fas fa-bell fa-2x"></i>
+                        <span class="notification-count">3</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="header-profile">
+                <img src="./images/avatar2.png" alt="profile-images">
+            </div>
+        </header>
+    </div>
+</body>
+
+</html>
