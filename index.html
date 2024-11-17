@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./main.css">
     <style>
 
@@ -25,8 +26,14 @@
                     <li id="icon"><i class="fa-sharp-duotone fa-solid fa-earth-americas fa-2x"></i></li>
                     <li id="icon"><i class="fa-sharp-duotone fa-solid fa-user fa-2x"></i></li>
                     <li id="icon"><i class="fa-sharp-duotone fa-solid fa-envelope fa-2x"></i></li>
-                    <li id="icon"><i class="fas fa-bell fa-2x"></i>
+                    <li class="nav-item dropdown" id="icon">
+                        <i class="fas fa-bell fa-2x"></i>
                         <span class="notification-count">3</span>
+                        <div class="dropdown-menu">
+                            <div id="item" class="dropdown-item">One new friend request</div>
+                            <div id="item" class="dropdown-item">Mehmet posted on your wall</div>
+                            <div id="item" class="dropdown-item">Ricardo Quaresma likes your post</div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -34,7 +41,12 @@
                 <img src="./images/avatar2.png" alt="profile-images">
             </div>
         </header>
+        <div class="content">
+
+        </div>
     </div>
+
+
 </body>
 
 </html>
