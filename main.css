@@ -120,3 +120,64 @@ body{
     padding: 10px;
     margin: 2px;
 }
+/* LEFT MENU */
+/* PROFILE-CARD SECTION */
+#left-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 2.4;
+    background-color: #F5F7F8;
+}
+#profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+#profile-card img {
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#profile-card hr {
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#profile-card h3 {
+    margin-bottom: 30px;
+    width: 100%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+#profile-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 95%;
+}
+
+#profile-card li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#profile-card li i {
+    margin-right: 30px;
+}
