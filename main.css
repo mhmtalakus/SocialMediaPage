@@ -411,3 +411,58 @@ select {
     background-color: #CCCCCC;
     color: black;
 }
+
+/* PHOTO POST SECTION */
+#photo-post {
+    width: 100%;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    background-color: #FFF;
+    padding: 17px;
+    border-radius: 4px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 -4px 6px rgba(0, 0, 0, 0.1),
+        4px 0 6px rgba(0, 0, 0, 0.1),
+        -4px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+#photo-post hr {
+    width: 100%;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#top img {
+    width: 10%;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#top h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+#top h3 {
+    margin-left: 50%;
+    opacity: 0.5;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#images img {
+    width: 49%;
+    border-radius: 5px;
+}
