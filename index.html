@@ -15,16 +15,14 @@
             display: flex;
         }
 
-        
-
         #center-menu {
             flex: 4;
-            background-color: red;
+            background-color: #F5F7F8;
         }
 
         #right-menu {
             flex: 2;
-            background-color: silver;
+            background-color: #F5F7F8;
         }
     </style>
 </head>
@@ -132,7 +130,16 @@
                 </script>
             </div>
 
-            <div id="center-menu"></div>
+            <div id="center-menu">
+                <div id="post-form">
+                    <p>What are you thinking ?</p>
+                    <form>
+                        <input type="text" id="fname" name="firstname" placeholder="Status: Feeling Blue">
+                        <button class="btn"><i class="fa-solid fa-pen"></i> Post</button>
+                    </form>
+                </div>
+            </div>
+
             <div id="right-menu"></div>
         </div>
     </div>
