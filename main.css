@@ -1,12 +1,14 @@
 /* GLOBAL */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .container {
     width: 100%;
 }
@@ -56,6 +58,7 @@ body{
     margin-right: 5%;
     margin-top: 6px;
 }
+
 .notification-count {
     position: absolute;
     font-size: 10px;
@@ -64,27 +67,33 @@ body{
     border-radius: 50%;
     padding: 2px 5px;
 }
+
 #header-profile {
     background-color: #4D636F;
     width: 10%;
 }
+
 #header-profile img {
     border-radius: 50%;
     width: 30px;
-    margin: 15px 0 0 50px;
+    margin: 20px;
+    margin-left: 75px;
+
 }
+
 #header-profile:hover {
     background-color: white;
     cursor: pointer;
 }
 
-#logo:hover{
+#logo:hover {
     background-color: white;
     color: black;
     transform: scale(1.1);
     transition: all 0.6s ease;
     cursor: pointer;
 }
+
 #icon:hover {
     background-color: white;
     color: black;
@@ -94,6 +103,7 @@ body{
     padding: 8px;
     cursor: pointer;
 }
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -107,19 +117,24 @@ body{
     padding: 10px 0;
     white-space: nowrap;
 }
+
 .dropdown-item:last-child {
-    border-bottom: none; 
+    border-bottom: none;
 }
+
 .dropdown-item:hover {
     background-color: #CCCCCC;
 }
+
 #icon:hover .dropdown-menu {
     display: flex;
 }
-#item{
+
+#item {
     padding: 10px;
     margin: 2px;
 }
+
 /* LEFT MENU */
 /* PROFILE-CARD SECTION */
 #left-menu {
@@ -129,6 +144,7 @@ body{
     flex: 2.4;
     background-color: #F5F7F8;
 }
+
 #profile-card {
     display: flex;
     flex-direction: column;
@@ -142,6 +158,7 @@ body{
     width: 400px;
     height: 400px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #profile-card img {
@@ -180,4 +197,61 @@ body{
 
 #profile-card li i {
     margin-right: 30px;
+}
+
+/* PROFILE OPTIONS SECTION */
+#profile-opt {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.toggle-button {
+    display: block;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    background-color: #7D97A5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: start;
+}
+
+.toggle-button:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.toggle-button i {
+    margin-right: 30px;
+}
+
+.hidden-content {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.hidden-content img {
+    width: 30%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="radio"]:checked+.toggle-button+.hidden-content {
+    display: block;
+}
+
+input[type="radio"] {
+    display: none;
 }

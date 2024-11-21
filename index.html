@@ -14,6 +14,17 @@
         #content {
             display: flex;
         }
+
+
+        #center-menu {
+            flex: 4;
+            background-color: red;
+        }
+
+        #right-menu {
+            flex: 2;
+            background-color: silver;
+        }
     </style>
 </head>
 
@@ -44,6 +55,7 @@
             </div>
         </header>
         <div id="content">
+
             <div id="left-menu">
                 <section id="profile-card">
                     <h3>My Profile</h3>
@@ -55,7 +67,43 @@
                         <li><i class="fa-solid fa-cake-candles"></i><span>April 1, 1988</span></li>
                     </ul>
                 </section>
+                <section id="profile-opt">
+                    <div class="toggle-container">
+                        <input type="radio" name="toggle" id="group-toggle">
+                        <label for="group-toggle" class="toggle-button"><i class="fa-solid fa-circle-notch"></i>My
+                            Groups</label>
+                        <div class="hidden-content">
+                            <p>Some text..</p>
+                        </div>
+                    </div>
+
+                    <div class="toggle-container">
+                        <input type="radio" name="toggle" id="event-toggle">
+                        <label for="event-toggle" class="toggle-button"><i class="fa-regular fa-calendar-check"></i>My
+                            Events</label>
+                        <div class="hidden-content">
+                            <p>Some other text..</p>
+                        </div>
+                    </div>
+
+                    <div class="toggle-container">
+                        <input type="radio" name="toggle" id="photo-toggle">
+                        <label for="photo-toggle" class="toggle-button"><i class="fa-solid fa-users"></i>My
+                            Photos</label>
+                        <div class="hidden-content">
+                            <img src="./images/lights.jpg" alt="lights">
+                            <img src="./images/nature.jpg" alt="nature">
+                            <img src="./images/mountains.jpg" alt="mountains">
+                            <img src="./images/forest.jpg" alt="forest">
+                            <img src="./images/nature (1).jpg" alt="nature">
+                            <img src="./images/snow.jpg" alt="snow">
+                        </div>
+                    </div>
+                </section>
             </div>
+
+            <div id="center-menu"></div>
+            <div id="right-menu"></div>
         </div>
     </div>
 
