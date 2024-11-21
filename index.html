@@ -115,6 +115,21 @@
                     <div class="interest-item">Art</div>
                     <div class="interest-item">Photos</div>
                 </section>
+                <section id="profile-notification">
+                    <div id="message">
+                        <h3>Hey !</h3>
+                        <p>People are looking at your profile. Find out who.</p>
+                    </div>
+                    <div id="close">
+                        <button class="close-button">&times;</button>
+                    </div>
+                </section>
+                <script>
+                    document.querySelector(".close-button").addEventListener("click", function () {
+                        const section = document.getElementById("profile-notification");
+                        section.remove();
+                    });
+                </script>
             </div>
 
             <div id="center-menu"></div>
