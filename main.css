@@ -154,7 +154,12 @@ body {
     padding: 15px;
     margin: 0 auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 -4px 6px rgba(0, 0, 0, 0.1),
+        4px 0 6px rgba(0, 0, 0, 0.1),
+        -4px 0 6px rgba(0, 0, 0, 0.1);
     width: 400px;
     height: 400px;
     text-align: center;
@@ -208,6 +213,7 @@ body {
     height: auto;
     margin: 0 auto;
     background-color: #f1f1f1;
+    margin-bottom: 30px;
 }
 
 .toggle-button {
@@ -254,4 +260,60 @@ input[type="radio"]:checked+.toggle-button+.hidden-content {
 
 input[type="radio"] {
     display: none;
+}
+
+/* PROFILE HOBBY SECTİON */
+#profile-hobby {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 -4px 6px rgba(0, 0, 0, 0.1),
+        4px 0 6px rgba(0, 0, 0, 0.1),
+        -4px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.interest-item {
+    background-color: #ddd;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 4px;
+    border-radius: 2px;
+    min-width: auto;
+    cursor: col-resize;
+}
+
+#profile-hobby h3 {
+    width: 100%;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#color-1 {
+    background-color: #303E45;
+    color: white;
+}
+
+#color-2 {
+    background-color: #57707D;
+    color: white;
+}
+
+#color-3 {
+    background-color: #9EB1BB;
+    color: black;
 }
