@@ -496,12 +496,14 @@ select {
         4px 0 6px rgba(0, 0, 0, 0.1),
         -4px 0 6px rgba(0, 0, 0, 0.1);
 }
+
 /* PHOTO POST - 2 SECTION */
-#nature{
+#nature {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10%;
 }
+
 /* RIGHT MENU */
 /* INFO-CARD SECTION */
 #info-card {
@@ -523,27 +525,33 @@ select {
         4px 0 6px rgba(0, 0, 0, 0.1),
         -4px 0 6px rgba(0, 0, 0, 0.1);
 }
-#info-card img{
+
+#info-card img {
     width: 95%;
     border-radius: 4px;
     margin-bottom: 5%;
 }
-#info-card p{
+
+#info-card p {
     font-size: 22px;
     margin-bottom: 5%;
 }
-#info-card h2{
+
+#info-card h2 {
     margin-bottom: 5%;
 }
-#btn-info{
+
+#btn-info {
     width: 95%;
     background-color: #DFE5E8;
     color: black;
     border-radius: 2px;
 }
-#btn-info:hover{
+
+#btn-info:hover {
     background-color: #CCCCCC;
 }
+
 /* REQUEST-CARD SECTION */
 #request-card {
     display: flex;
@@ -605,4 +613,26 @@ select {
 #request-card h2 {
     font-weight: 300;
     margin-bottom: 5%;
+}
+
+/* ADS SECTION */
+#ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-right: 15%;
+    background-color: #FFF;
+    padding: 17px;
+    border-radius: 4px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 -4px 6px rgba(0, 0, 0, 0.1),
+        4px 0 6px rgba(0, 0, 0, 0.1),
+        -4px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+#ads p {
+    padding: 10%;
+    font-size: 20px;
 }
