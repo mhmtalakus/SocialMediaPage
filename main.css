@@ -636,11 +636,12 @@ select {
     padding: 10%;
     font-size: 20px;
 }
+
 /* BUG SECTION */
 #bug {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     height: 8%;
     margin: 20px;
     margin-right: 15%;
@@ -653,6 +654,33 @@ select {
         4px 0 6px rgba(0, 0, 0, 0.1),
         -4px 0 6px rgba(0, 0, 0, 0.1);
 }
-#bug i{
+
+#bug i {
     padding: 10%;
+}
+
+/* FOOTER */
+#footer-top {
+    background-color: #435761;
+    color: white;
+
+}
+
+#footer-top h3 {
+    font-size: 25px;
+    padding: 35px;
+}
+
+#footer-down {
+    background-color: #303E45;
+    color: white;
+}
+
+#footer-down p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#footer-down a {
+    color: white;
 }
