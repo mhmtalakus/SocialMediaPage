@@ -13,6 +13,20 @@ body {
     width: 100%;
 }
 
+#content {
+    display: flex;
+}
+
+#center-menu {
+    flex: 4;
+    background-color: #F5F7F8;
+}
+
+#right-menu {
+    flex: 2;
+    background-color: #F5F7F8;
+}
+
 /* HEADER SECTION */
 #header {
     display: flex;
@@ -465,4 +479,20 @@ select {
 #images img {
     width: 49%;
     border-radius: 5px;
+}
+
+/* TEXT POST SECTION */
+#text-post {
+    width: 100%;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    background-color: #FFF;
+    padding: 17px;
+    border-radius: 4px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 -4px 6px rgba(0, 0, 0, 0.1),
+        4px 0 6px rgba(0, 0, 0, 0.1),
+        -4px 0 6px rgba(0, 0, 0, 0.1);
 }
