@@ -544,3 +544,65 @@ select {
 #btn-info:hover{
     background-color: #CCCCCC;
 }
+/* REQUEST-CARD SECTION */
+#request-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    margin-right: 15%;
+    background-color: #FFF;
+    padding: 17px;
+    border-radius: 4px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 -4px 6px rgba(0, 0, 0, 0.1),
+        4px 0 6px rgba(0, 0, 0, 0.1),
+        -4px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+#btn-request {
+    display: flex;
+    flex-direction: row;
+}
+
+#request-img {
+    width: 40%;
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+
+#agree {
+    background-color: #94CF96;
+    width: 120px;
+    border-radius: 2px;
+}
+
+#agree:hover {
+    background-color: #E0E0E0;
+}
+
+#xmark {
+    background-color: #F88E86ed;
+    width: 120px;
+    border-radius: 2px;
+
+}
+
+#xmark:hover {
+    background-color: #E0E0E0;
+}
+
+#request-card p {
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+#request-card h2 {
+    font-weight: 300;
+    margin-bottom: 5%;
+}
